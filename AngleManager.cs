@@ -23,7 +23,7 @@ public class AngleManager : MonoBehaviour
         float arrowX = acceleration.x / arrow;
         float arrowY = acceleration.y / arrow;
 
-        // 傾き角度：θ
+        // 傾き角度：θ：シータ
         float gravity = Mathf.Sqrt(gravityX*gravityX + gravityY*gravityY + gravityZ*gravityZ);
         float theta = Mathf.Acos(-gravityZ/gravity) * Mathf.Rad2Deg;
 
